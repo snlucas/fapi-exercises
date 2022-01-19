@@ -1,4 +1,4 @@
-name: GitHub Actions CI
+name: CI
 on: [push]
 jobs:
   environment:
@@ -16,11 +16,13 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repository
       - uses: actions/checkout@v2
-      - run: black app/
+      - name: Run Black
+      - run: black app --check
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Test Exercise 1
-      - run: pytest app/exercise01/
+      - run: pytest app
