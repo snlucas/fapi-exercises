@@ -4,7 +4,7 @@ Fast API Exercises!
 ## How to Run:
 You can use Docker or run through your own environment.
 
-**Using Docker:**
+**🐋 Using Docker:**
 
 (Unavailable for now)
 ```sh
@@ -12,7 +12,8 @@ $ docker build -t fapi:latest .
 $ docker run -it fapi:latest
 ```
 
-**Using Your Local Environment:**
+**💻 Using Your Local Environment:**
+
 First, create and activate a virtual environment:
 ```sh
 $ python3 -m venv .venv
@@ -32,7 +33,7 @@ $ uvicorn app.exercise01.app:app --reload
 ```
 
 
-🚀 **List of Exercises**
+**🚀 List of Exercises**
  1. CRUD in "Hello, World!" String:
 
     | Details                 | Method |
