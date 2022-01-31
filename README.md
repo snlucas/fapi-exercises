@@ -43,7 +43,7 @@ $ uvicorn app.exercise01.app:app --reload
     | Update the String       | PUT    |
     | Delete the whole String | DELETE |
  
- 2. Get Pokemons by name or number;
- 3. Save Pokemons searched in cache;
- 4. Use Svelte in CRUD Hello, World!;
-  
+ 2. Use Svelte in CRUD Hello, World!;
+ 3. Test Database;
+ 4. Authorization; 
+ 5. Scraping Bit is Myth Blog;
